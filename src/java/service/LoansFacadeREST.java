@@ -50,6 +50,7 @@ public class LoansFacadeREST extends AbstractFacade<Loans> {
     }
 
     @POST
+    @Path("CreateLoan")
     @Consumes({"application/xml", "application/json"})
     public void CreateLoan(Loans entity) {
 
